@@ -21,3 +21,21 @@ ul {
 li {
 	display: inline;
 }
+
+section {
+	background: blue;
+	margin: 50px;
+	padding: 50px;
+
+}
+
+section p
+{
+	margin: 25px auto 0 auto;
+	width: 1006px;
+}
+
+.portfolio-img {
+	display: block;
+	margin: auto;
+}
