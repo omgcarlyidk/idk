@@ -1,10 +1,13 @@
+html{font-size:0.625em;}
+
 body {
 	background: red;
+	font
 }
 
 header {
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 10%;
 	font-family: sans-serif;
 }
 
@@ -16,26 +19,59 @@ nav {
 ul {
 	margin: 0 auto;
 	padding: 0;
+	font-size: 1.5em;
 }
 
 li {
 	display: inline;
+	font-size: 2rem;
 }
+
+
 
 section {
 	background: blue;
-	margin: 50px;
-	padding: 50px;
+	margin: 5%;
+	padding: 5%;
 
 }
 
 section p
 {
-	margin: 25px auto 0 auto;
-	width: 1006px;
+	margin: 5% auto;
+	font-size: 1.5em;
+
 }
 
 .portfolio-img {
 	display: block;
 	margin: auto;
+	width: 100%;	
+}
+
+.portfolio-item{
+	margin-bottom: 15%;
+}
+
+.portfolio-item:last-child
+{
+	margin: 0;
+}
+
+
+
+
+
+
+
+@media (min-width: 640px) {
+  .portfolio-img{
+  	display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .portfolio-img{
+  	display: block;
+  	max-width: 20%;
 }
